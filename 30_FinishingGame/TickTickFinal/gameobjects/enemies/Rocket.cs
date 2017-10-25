@@ -31,7 +31,7 @@ class Rocket : AnimatedGameObject
             return;
         }
         visible = true;
-        velocity.X = 600;
+        velocity.X = 200;
         if (Mirror)
         {
             this.velocity.X *= -1;
@@ -45,12 +45,18 @@ class Rocket : AnimatedGameObject
         }
     }
 
+    
     public void CheckPlayerCollision()
     {
         Player player = GameWorld.Find("player") as Player;
-        if (CollidesWith(player) && visible)
+        if (CollidesWith(player) && visible && player.GlobalPosition.Y <= GlobalPosition.Y)
         {
             player.Die(false);
+        }
+        if (CollidesWith(player) && visible && player.GlobalPosition.Y >= GlobalPosition.Y)
+        {
+            visible = false;
+            //PlayAnimation("explode");
         }
     }
 }
