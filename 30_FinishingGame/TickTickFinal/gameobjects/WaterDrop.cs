@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 
-class WaterDrop : SpriteGameObject
+abstract class WaterDrop : SpriteGameObject
 {
     protected float bounce;
 
@@ -11,6 +11,7 @@ class WaterDrop : SpriteGameObject
 
     public override void Update(GameTime gameTime)
     {
+        MoveDrop();
         double t = gameTime.TotalGameTime.TotalSeconds * 3.0f + Position.X;
         bounce = (float)Math.Sin(t) * 0.2f;
         position.Y += bounce;
@@ -21,4 +22,6 @@ class WaterDrop : SpriteGameObject
             GameEnvironment.AssetManager.PlaySound("Sounds/snd_watercollected");
         }
     }
+
+    public abstract void MoveDrop();
 }

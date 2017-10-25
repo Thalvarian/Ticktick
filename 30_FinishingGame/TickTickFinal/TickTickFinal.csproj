@@ -88,6 +88,7 @@
       <Link>GameManagement\TextGameObject.cs</Link>
     </Compile>
     <Compile Include="GameManagement\Camera.cs" />
+    <Compile Include="gameobjects\WobblyDrop.cs" />
     <Compile Include="gameobjects\Clouds.cs" />
     <Compile Include="gameobjects\enemies\PatrollingEnemy.cs" />
     <Compile Include="gameobjects\enemies\PlayerFollowingEnemy.cs" />
@@ -102,9 +103,9 @@
     <Compile Include="gameobjects\TimerGameObject.cs" />
     <Compile Include="gameobjects\VisibilityTimer.cs" />
     <Compile Include="gameobjects\WaterDrop.cs" />
-    <Compile Include="level\Level.cs" />
-    <Compile Include="level\LevelGameLoop.cs" />
-    <Compile Include="level\LevelLoading.cs" />
+    <Compile Include="gameobjects\level\Level.cs" />
+    <Compile Include="gameobjects\level\LevelGameLoop.cs" />
+    <Compile Include="gameobjects\level\LevelLoading.cs" />
     <Compile Include="menu\Button.cs" />
     <Compile Include="menu\LevelButton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
