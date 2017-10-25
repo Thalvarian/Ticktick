@@ -86,3 +86,5 @@ D:\Documents\Studie\Gameprogrammeren\Ticktick\30_FinishingGame\TickTickFinal\bin
 D:\Documents\Studie\Gameprogrammeren\Ticktick\30_FinishingGame\TickTickFinal\obj\x86\Debug\TickTickFinal.csprojResolveAssemblyReference.cache
 D:\Documents\Studie\Gameprogrammeren\Ticktick\30_FinishingGame\TickTickFinal\obj\x86\Debug\TickTick5.exe
 D:\Documents\Studie\Gameprogrammeren\Ticktick\30_FinishingGame\TickTickFinal\obj\x86\Debug\TickTick5.pdb
+D:\Documents\Studie\Gameprogrammeren\Ticktick\Ticktick\30_FinishingGame\TickTickFinal\obj\x86\Debug\TickTick5.exe
+D:\Documents\Studie\Gameprogrammeren\Ticktick\Ticktick\30_FinishingGame\TickTickFinal\obj\x86\Debug\TickTick5.pdb
